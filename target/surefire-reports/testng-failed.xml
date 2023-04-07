@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.ExtentTestNGITestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testCases.NewUserTest">
+        <methods>
+          <include name="newUser"/>
+          <include name="setupBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testCases.NewUserTest -->
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+      <class name="testCases.DashBoardTest">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="dashBoardTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testCases.DashBoardTest -->
+      <class name="testCases.ViewUsersTest">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="viewUsers"/>
+        </methods>
+      </class> <!-- testCases.ViewUsersTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

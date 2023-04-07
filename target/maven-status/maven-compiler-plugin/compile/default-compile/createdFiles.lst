@@ -1,0 +1,14 @@
+dataProvider\CustomDataProvider.class
+base\BaseClass.class
+dataProvider\ConfigReader.class
+pages\LoginPage.class
+pages\Logout.class
+pages\DashboardPage.class
+pages\ViewUser.class
+browserFactory\BrowserFactory.class
+helper\Utility.class
+listeners\ExtentManager.class
+pages\Example.class
+listeners\ExtentTestNGITestListener.class
+pages\AddNewUser.class
+dataProvider\ExcelReader.class

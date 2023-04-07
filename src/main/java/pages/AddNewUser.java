@@ -41,7 +41,7 @@ public class AddNewUser {
 		Utility.clickElement(driver, user_role_arrow);
 		Utility.clickElementPassingUserInput(driver, select_user_role, role);
 		Utility.typeValuesInTextBox(driver, employee_name, e_name);//Peter Mac Anderson
-		Utility.waitForSeconds(3000);
+		Utility.waitForSeconds(5000);
 		//Utility.explicitWait(driver, 30, employee_name_ddown);
 		Utility.clickElementPassingUserInput(driver, employee_name_ddown, emp_name);
 		Utility.clickElement(driver, status_arrow);
